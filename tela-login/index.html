@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBR System</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    
+        
+<div class="main-login">
+    <div class="left-login fundo-mapa">
+        <img  src="imagens/mapa2.png" alt="mapa de cobertura" class="left-login-image">
+
+    </div> 
+     
+    <div class="right-login">                  
+        <div class="card-login">
+            <img  src="imagens/FBR_Horizontal_Cor.png" alt="logo FBR" > 
+                        
+            <form action="login.php" method="POST">
+                <div class="textfield"> 
+                    <label for="Usuário">Usuário</label>
+                    <input name="usuario" name="text" placeholder="Seu usuário" autofocus="">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input name="senha" type="password" placeholder="Sua senha"> <br>
+                    <a class="esqueci" href="recupera_senha.php">esqueci a senha</a>
+                </div>
+                <button class="btn-login" type="submit" >Entrar</button>                                               
+            </form>
+        </div>
+    </div>
+         
+
+</div>
+</body>
+</html>
